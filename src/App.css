@@ -1,10 +1,21 @@
 .App {
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  padding: 36px 76px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.content {
+  padding: 82px 42px;
+  width: 750px;
+}
+.rs-steps-horizontal .rs-steps-item-content {
+  text-align: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,15 +35,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
