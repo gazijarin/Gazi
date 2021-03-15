@@ -95,6 +95,11 @@ ul {
     padding-top: 40px;
   }
 
+  .jss1 {
+    height: unset !important;
+    flex-direction: column !important;
+  }
+
   .makeStyles-root-1 {
     height: unset !important;
     width: unset;
