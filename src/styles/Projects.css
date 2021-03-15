@@ -1,5 +1,4 @@
 #projects {
-  height: 100vh;
   padding-top: 40px;
 }
 
@@ -35,6 +34,7 @@
 .card-header {
   margin-top: -20px;
   display: flex;
+  padding: 1.25em 0 !important;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: none !important;
