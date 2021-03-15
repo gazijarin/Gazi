@@ -19,9 +19,9 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I create stuff sometimes. I am currently studying{" "}
-        <b>Computer Science</b> at <b> University of Toronto </b>, with focus in
-        Artificial Intelligence. I am also currently on a one year internship at{" "}
+        I am currently studying <b>Computer Science</b> at{" "}
+        <b> University of Toronto </b>, with a focus in Artificial Intelligence.
+        I am also currently on a one year internship at{" "}
         <a href="https://www.wattpad.com">Wattpad</a> as an{" "}
         <b>Associate Web Engineer</b>.
       </p>
