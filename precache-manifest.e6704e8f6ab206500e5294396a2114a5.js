@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18b2a6321ec94a3c40aed0f50b6644ac",
+    "revision": "514d095af2496f640700d5a329b2cdf8",
     "url": "/gazi/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gazi/static/css/2.734ab464.chunk.css"
   },
   {
-    "revision": "a23f99fc6615335ebed2",
-    "url": "/gazi/static/css/main.135ecf53.chunk.css"
+    "revision": "2053920eaf2a83e9b691",
+    "url": "/gazi/static/css/main.facfef41.chunk.css"
   },
   {
     "revision": "65fb08d3df4d0980d109",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gazi/static/js/2.c2bb8334.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a23f99fc6615335ebed2",
-    "url": "/gazi/static/js/main.bfc63e1a.chunk.js"
+    "revision": "2053920eaf2a83e9b691",
+    "url": "/gazi/static/js/main.b1ab682d.chunk.js"
   },
   {
     "revision": "ec847240dc1437678902",
