@@ -1,0 +1,111 @@
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh;
+  margin-left: -40px;
+  margin-top: -50px;
+}
+
+canvas {
+  width: 200px !important;
+}
+
+.Typist {
+  color: var(--lightest-slate);
+  text-align: center;
+  font-size: 76px;
+  margin-top: -30px;
+}
+.Typist .Cursor--blinking {
+  color: var(--green-bright);
+  padding-left: 4px;
+}
+
+.intro-title {
+  font-family: "NTR", sans-serif;
+  font-size: 86px;
+}
+.intro-name {
+  font-family: "NTR", sans-serif;
+  color: var(--green-bright);
+  font-weight: bold;
+  font-size: 86px;
+}
+
+.intro-subtitle {
+  margin-top: -36px;
+  font-family: "NTR", sans-serif;
+  color: var(--slate);
+  font-weight: 300;
+  font-size: 55px;
+}
+
+.intro-desc {
+  color: var(--slate);
+  font-family: "NTR", sans-serif;
+  font-size: 20px;
+  max-width: 55%;
+  padding-bottom: 50px;
+}
+
+.intro-contact {
+  font-size: 22px;
+  font-family: "NTR", sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid var(--green-bright);
+  border-radius: 4px;
+}
+
+.intro-contact:hover {
+  background-color: var(--lightest-navy);
+}
+
+b {
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+  #gazi-model {
+    display: none;
+  }
+
+  #intro {
+    padding-top: 60px;
+    margin: 0;
+    align-items: center;
+    height: unset;
+    padding-bottom: 40px;
+  }
+
+  .intro-title {
+    font-size: 46px;
+  }
+  .intro-name {
+    font-size: 46px;
+  }
+
+  .Typist {
+    font-size: 36px;
+  }
+
+  .intro-subtitle {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .intro-desc {
+    font-size: 18px;
+    text-align: center;
+    max-width: unset;
+    padding-bottom: 40px;
+  }
+
+  .intro-contact {
+    font-size: 16px;
+    align-self: center;
+    margin-left: 30%;
+  }
+}

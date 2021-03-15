@@ -1,17 +1,25 @@
-import React from 'react';
+import React from "react";
 import SidebarNav from "./components/SidebarNav";
-import Experience from "./components/Experience"
-import './App.css';
-import 'rsuite/dist/styles/rsuite-default.css';
-
+import Intro from "./components/Intro";
+import Experience from "./components/Experience";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Credits from "./components/Credits";
+import "./App.css";
+import "./styles/Global.css";
+import "rsuite/dist/styles/rsuite-default.css";
 
 function App() {
   return (
     <div className="App">
-      <SidebarNav/>
-      <div className="content">
-      <Experience/>
+      <div id="content">
+        <Intro></Intro>
+        <About></About>
+        <Experience></Experience>
+        <Projects></Projects>
+        <Credits></Credits>
       </div>
+      <SidebarNav />
     </div>
   );
 }
