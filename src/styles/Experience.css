@@ -46,7 +46,9 @@
 .PrivateTabIndicator-colorSecondary-5 {
   background-color: var(--green-bright) !important;
 }
-
+.jss5 {
+  background-color: var(--green-bright) !important;
+}
 .makeStyles-tabs-2 {
   border-right: 1px solid var(--lightest-navy) !important;
 }
