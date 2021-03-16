@@ -9,6 +9,8 @@ import "../styles/SidebarNav.css";
 import "react-typist/dist/Typist.css";
 import FadeInSection from "./FadeInSection";
 
+const isMobile = window.innerWidth < 600;
+
 class SidebarNav extends React.Component {
   constructor() {
     super();
@@ -35,23 +37,25 @@ class SidebarNav extends React.Component {
 
     return (
       <div className="sidebar-nav">
-        <Sidenav
-          expanded={expanded}
-          defaultOpenKeys={["3", "4"]}
-          activeKey={this.state.activeKey}
-          onSelect={this.handleSelect}
-          appearance={"subtle"}
-        >
-          <Sidenav.Body>
-            <div className="sidebar-links">
-              {links.map((link, i) => (
-                <FadeInSection delay={`${i + 1}00ms`}>
-                  <div>{link}</div>
-                </FadeInSection>
-              ))}
-            </div>
-          </Sidenav.Body>
-        </Sidenav>
+        {!isMobile && (
+          <Sidenav
+            expanded={expanded}
+            defaultOpenKeys={["3", "4"]}
+            activeKey={this.state.activeKey}
+            onSelect={this.handleSelect}
+            appearance={"subtle"}
+          >
+            <Sidenav.Body>
+              <div className="sidebar-links">
+                {links.map((link, i) => (
+                  <FadeInSection delay={`${i + 1}00ms`}>
+                    <div>{link}</div>
+                  </FadeInSection>
+                ))}
+              </div>
+            </Sidenav.Body>
+          </Sidenav>
+        )}
         <div className="sidebar-logos" href="/">
           <a href="mailto:gazi.jarin@mail.utoronto.ca">
             <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
