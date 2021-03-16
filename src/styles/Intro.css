@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 100vh;
-  margin-left: -40px;
-  margin-top: -50px;
+  padding-left: 15%;
+  padding-top: 5%;
+  min-height: 100vh;
 }
 
 canvas {
@@ -72,11 +72,10 @@ b {
   }
 
   #intro {
-    padding-top: 60px;
+    min-height: unset;
+    padding-left: unset;
     margin: 0;
     align-items: center;
-    height: unset;
-    padding-bottom: 40px;
   }
 
   .intro-title {

@@ -1,5 +1,7 @@
 #projects {
-  padding-top: 40px;
+  padding-left: 15%;
+  padding-top: 5%;
+  padding-right: 25%;
 }
 
 .projects-grid {
@@ -77,6 +79,8 @@
 @media only screen and (max-width: 600px) {
   #projects {
     height: unset;
-    padding-top: 40px;
+    padding-top: 30%;
+    padding-left: unset;
+    padding-right: unset;
   }
 }

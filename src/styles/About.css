@@ -6,15 +6,16 @@
 }
 
 #about {
-  padding-top: 40px;
-  height: 90vh;
+  padding-left: 15%;
+  padding-top: 5%;
+  padding-right: 25%;
 }
 
 .about-description ul {
   padding-top: 20px;
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(2, minmax(230px, 10px));
+  grid-template-columns: repeat(2, minmax(150px, 10px));
 }
 
 .about-description li {
@@ -34,13 +35,12 @@
 .about-content {
   display: flex;
   flex-direction: row;
-  width: 100vw;
 }
 
 .about-description {
   font-family: "NTR", sans-serif;
   color: var(--slate);
-  max-width: 550px;
+  max-width: 700px;
   font-size: 20px;
   margin: 0;
 }
@@ -56,12 +56,17 @@
 }
 
 .about-image img {
-  max-width: 650px;
-  width: 35%;
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
   box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
   border: 2px solid var(--green-bright);
+}
+
+@media only screen and (max-width: 788px) {
+  .about-image img {
+    max-width: 200px;
+  }
 }
 
 .about-image:hover {
@@ -71,12 +76,9 @@
 @media only screen and (max-width: 600px) {
   #about {
     height: unset;
-    padding-top: 40px;
-  }
-
-  .about-description ul {
-    padding-top: 10px;
-    grid-template-columns: repeat(2, minmax(200px, 10px));
+    padding-left: unset;
+    padding-right: unset;
+    padding-top: 30%;
   }
   .about-image img {
     display: none;

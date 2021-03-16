@@ -28,7 +28,7 @@ html {
   background-color: var(--navy);
   display: flex;
   flex-direction: row;
-  padding: 36px 76px;
+  /* padding: 36px 76px; */
 }
 .App-logo {
   height: 40vmin;
@@ -36,7 +36,7 @@ html {
 }
 
 #content {
-  padding: 80px 200px;
+  /* padding: 80px 200px; */
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;

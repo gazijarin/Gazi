@@ -1,6 +1,6 @@
 #experience {
-  height: 70vh;
-  padding-top: 40px;
+  padding-left: 15%;
+  padding-top: 5%;
 }
 
 .joblist-job-title {
@@ -23,9 +23,6 @@
   color: var(--slate);
 }
 
-.makeStyles-root-1 {
-  width: 1000px;
-}
 #vertical-tabpanel {
   margin-top: -28px;
   padding-left: 25px;
@@ -78,8 +75,8 @@ ul {
 
 .job-description {
   padding-top: 24px;
-  font-family: "NTR", sans-serif;
   max-width: 650px;
+  font-family: "NTR", sans-serif;
   font-size: 20px;
 }
 
@@ -91,8 +88,9 @@ ul {
 
 @media only screen and (max-width: 600px) {
   #experience {
-    height: unset;
-    padding-top: 40px;
+    padding-left: unset;
+    padding-right: unset;
+    padding-top: 30%;
   }
 
   .jss1 {
