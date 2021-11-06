@@ -38,7 +38,7 @@ class ThreeJSAnimation extends Component {
 
         // Add a camera
         camera = new THREE.PerspectiveCamera(
-          50,
+          65,
           window.innerWidth / window.innerHeight,
           0.1,
           1000

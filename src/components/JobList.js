@@ -83,12 +83,21 @@ const JobList = () => {
 
   const experienceItems = {
     Wattpad: {
-      jobTitle: "Associate Engineer @",
+      jobTitle: "Software Engineer (PEY) @",
       duration: "MAY 2020 - APR 2021",
       desc: [
-        "Developed a responsive React web page from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Measured and analyzed real-world user metrics, collaborated with senior engineers and product management",
-        "Iteratively built web experiences for 80 million users across high-traffic pages."
+        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
+        "Iteratively built web experiences for 80 million users across high-traffic pages.",
+        "Measured and analyzed real-world user metrics by leveraging Amplitude and Datadog.",
+        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
+      ]
+    },
+    UofT: {
+      jobTitle: "Research Engineer @",
+      duration: "MAY 2021 - SEPT 2021",
+      desc: [
+        "Developing and researching an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
+        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
       ]
     },
     Centivizer: {
@@ -144,7 +153,7 @@ const JobList = () => {
             {experienceItems[key]["duration"]}
           </div>
           <ul className="job-description">
-            {experienceItems[key]["desc"].map(function(descItem, i) {
+            {experienceItems[key]["desc"].map(function (descItem, i) {
               return (
                 <FadeInSection delay={`${i + 1}00ms`}>
                   <li key={i}>{descItem}</li>

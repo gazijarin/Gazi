@@ -39,8 +39,8 @@ class Intro extends React.Component {
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
             I'm a software engineer and artist based in Toronto. I have profound
-            interest in machine learning, human-computer interactions, frontend
-            development, and everything in between.
+            interest in full-stack development, machine learning, human-computer
+            interactions, and everything in between.
           </div>
           <a
             href="mailto:gazi.jarin@mail.utoronto.ca"

@@ -20,17 +20,19 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently studying <b>Computer Science</b> at{" "}
-        <b> University of Toronto </b>, with a focus in Artificial Intelligence.
-        I am also currently on a one year internship at{" "}
-        <a href="https://www.wattpad.com">Wattpad</a> as an{" "}
-        <b>Associate Web Engineer</b>.
+        <b> University of Toronto </b>, with a focus in Software Systems and
+        Artificial Intelligence. Last year, I was on a one year internship at{" "}
+        <a href="https://www.wattpad.com">Wattpad</a> as a{" "}
+        <b>Software Engineer</b>.
       </p>
     );
     const two = (
       <p>
-        I'm into <b>machine learning</b>, <b>human-computer interactions</b> and{" "}
-        <b>frontend development</b>. I also like my fair share of visual arts
-        and creativity. In my free time, I eat guava fruit and play video games.
+        I'm into any sort of <b>software development</b> that requires
+        creativity. My other areas of interest include <b>machine learning</b>,{" "}
+        <b>human-computer interactions</b> and <b>frontend development</b>. I
+        also like my fair share of visual arts and video editing. In my free
+        time, I eat guava fruit and play video games.
       </p>
     );
     const three = (
