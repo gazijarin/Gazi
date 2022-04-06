@@ -40,14 +40,15 @@
 .about-description {
   font-family: "NTR", sans-serif;
   color: var(--slate);
-  max-width: 700px;
-  font-size: 20px;
+  max-width: 600px;
+  font-size: 22px;
+  text-align: justify;
   margin: 0;
 }
 
 .about-description a,
 .about-description b {
-  font-size: 19px;
+  font-size: 21px;
   font-weight: bold;
 }
 
@@ -59,8 +60,9 @@
   max-width: 300px;
   height: auto;
   border-radius: 10px;
+  margin-left: 30px;
   box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
-  border: 2px solid var(--green-bright);
+  border: none;
 }
 
 @media only screen and (max-width: 788px) {
@@ -80,6 +82,16 @@
     padding-right: unset;
     padding-top: 30%;
   }
+
+  .about-description {
+    font-size: 18px;
+  }
+
+  .about-description a,
+  .about-description b {
+    font-size: 18px;
+  }
+
   .about-image img {
     display: none;
   }

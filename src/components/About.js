@@ -19,20 +19,18 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently studying <b>Computer Science</b> at{" "}
-        <b> University of Toronto </b>, with a focus in Software Systems and
-        Artificial Intelligence. Last year, I was on a one year internship at{" "}
-        <a href="https://www.wattpad.com">Wattpad</a> as a{" "}
-        <b>Software Engineer</b>.
+        I am currently a fourth year <b>Computer Science</b> major at
+        <b> University of Toronto</b>. After graduation, I will be joining{" "}
+        <a href="https://www.aboutamazon.com/">Amazon</a> as a{" "}
+        <b>Software Development Engineer</b> while undertaking a part-time
+        <b> Master's of Science in Software Engineering </b>at{" "}
+        <a href="https://www.ox.ac.uk/about">Oxford University</a>.
       </p>
     );
     const two = (
       <p>
-        I'm into any sort of <b>software development</b> that requires
-        creativity. My other areas of interest include <b>machine learning</b>,{" "}
-        <b>human-computer interactions</b> and <b>frontend development</b>. I
-        also like my fair share of visual arts and video editing. In my free
-        time, I eat guava fruit and play video games.
+        Outside of work, I'm interested in following the developments of
+        science. I also play a lot of video games. And make TikToks.
       </p>
     );
     const three = (
@@ -56,7 +54,7 @@ class About extends React.Component {
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
-    var image = require("./assets/me.jpg");
+    var image = require("./assets/me2.jpg");
 
     return (
       <div id="about">
@@ -66,7 +64,7 @@ class About extends React.Component {
           </div>
           <div className="about-content">
             <div className="about-description">
-              {desc_items}
+              {[one]}
               {"Here are some technologies I have been working with:"}
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
@@ -77,6 +75,7 @@ class About extends React.Component {
                   );
                 })}
               </ul>
+              {[two]}
             </div>
             <div className="about-image">
               <img src={image} />

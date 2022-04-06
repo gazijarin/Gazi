@@ -25,9 +25,6 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="intro">
-        <div id="gazi-model">
-          <GaziModel></GaziModel>
-        </div>
         <Typist avgTypingDelay={120}>
           <span className="intro-title">
             {"hi, "}
@@ -38,16 +35,16 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
-            I'm a software engineer and artist based in Toronto. I have profound
-            interest in full-stack development, machine learning, human-computer
-            interactions, and everything in between.
+            I'm a software engineer and artist based in Toronto. I have great
+            interest in full-stack development, artificial intelligence,
+            human-computer interactions, and everything in between.
           </div>
           <a
             href="mailto:gazi.jarin@mail.utoronto.ca"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
-            {"  " + "Say hello"}
+            {"  " + "Say hi!"}
           </a>
         </FadeInSection>
       </div>

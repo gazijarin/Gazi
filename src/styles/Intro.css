@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding-left: 15%;
-  padding-top: 5%;
+  padding-top: 18%;
   min-height: 100vh;
 }
 
@@ -38,21 +38,23 @@ canvas {
   font-family: "NTR", sans-serif;
   color: var(--slate);
   font-weight: 300;
-  font-size: 55px;
+  font-size: 48px;
 }
 
 .intro-desc {
   color: var(--slate);
   font-family: "NTR", sans-serif;
-  font-size: 20px;
-  max-width: 55%;
+  font-size: 22px;
+  max-width: 40%;
+  text-align: justify;
   padding-bottom: 50px;
 }
 
 .intro-contact {
   font-size: 22px;
+  font-weight: bolder;
   font-family: "NTR", sans-serif;
-  padding: 10px 20px;
+  padding: 10px 30px;
   cursor: pointer;
   border: 1px solid var(--green-bright);
   border-radius: 4px;
