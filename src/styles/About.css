@@ -7,8 +7,8 @@
 
 #about {
   padding-left: 15%;
-  padding-top: 5%;
   padding-right: 25%;
+  min-height: 80vh;
 }
 
 .about-description ul {

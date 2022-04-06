@@ -1,7 +1,7 @@
 #experience {
   padding-left: 15%;
-  padding-top: 5%;
   padding-bottom: 5%;
+  min-height: 80vh;
 }
 
 .joblist-job-title {
@@ -50,6 +50,9 @@
 .makeStyles-tabs-2 {
   border-right: 1px solid var(--lightest-navy) !important;
 }
+#experience .MuiTab-root {
+  padding: 6px 20px;
+}
 .MuiButtonBase-root:focus {
   color: var(--green-bright) !important;
 }
@@ -91,7 +94,6 @@ ul {
   #experience {
     padding-left: unset;
     padding-right: unset;
-    padding-top: 30%;
   }
 
   .jss1 {
