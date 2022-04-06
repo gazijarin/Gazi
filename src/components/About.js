@@ -20,11 +20,15 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently a fourth year <b>Computer Science</b> major at
-        <b> University of Toronto</b>. After graduation, I will be joining{" "}
+        <a href="https://www.utoronto.ca/about-u-of-t">
+          {" "}
+          University of Toronto
+        </a>
+        . After graduation, I will be joining{" "}
         <a href="https://www.aboutamazon.com/">Amazon</a> as a{" "}
         <b>Software Development Engineer</b> while undertaking a part-time
-        <b> Master's of Science in Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">Oxford University</a>.
+        <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
+        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
       </p>
     );
     const two = (
