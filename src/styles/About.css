@@ -85,11 +85,12 @@
 
   .about-description {
     font-size: 18px;
+    text-align: justify;
   }
 
   .about-description a,
   .about-description b {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .about-image img {
