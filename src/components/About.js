@@ -58,7 +58,6 @@ class About extends React.Component {
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
-    var image = require("./assets/me2.jpg");
 
     return (
       <div id="about">
@@ -82,7 +81,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={image} />
+              <img src={"/assets/me2.jpg"} />
             </div>
           </div>
         </FadeInSection>
