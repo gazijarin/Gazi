@@ -19,15 +19,10 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a fourth year <b>Computer Science</b> major at
-        <a href="https://www.utoronto.ca/about-u-of-t">
-          {" "}
-          University of Toronto
-        </a>
-        . After graduation, I will be joining{" "}
-        <a href="https://www.aboutamazon.com/">Amazon</a> as a{" "}
-        <b>Software Development Engineer</b> while undertaking a part-time
-        <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
+        I am currently a <b>Software Development Engineer</b> at
+        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
+        sector under team Route53. At the same time, I am undertaking a
+        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
         <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
       </p>
     );

@@ -1,0 +1,14 @@
+#fractal-tree {
+  padding-bottom: 20px;
+}
+
+#fractal-tree .p5Canvas {
+  width: 250px !important;
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #fractal-tree {
+    display: none;
+  }
+}
