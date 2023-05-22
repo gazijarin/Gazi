@@ -153,7 +153,6 @@ class Projects extends React.Component {
                       openLink={projects[key]["open"]}
                     ></ExternalLinks>
                   </div>
-
                   <div className="card-title">{key}</div>
                   <div className="card-desc">{projects[key]["desc"]}</div>
                   <div className="card-tech">{projects[key]["techStack"]}</div>

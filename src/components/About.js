@@ -19,11 +19,11 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
+        I am currently a <b>Software Development Engineer </b> 
+        at <a className="hover-underline-animation" href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
         sector under team Route53. At the same time, I am undertaking a
         part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        <a className="hover-underline-animation" href="https://www.ox.ac.uk/about">University of Oxford</a>.
       </p>
     );
     const two = (
