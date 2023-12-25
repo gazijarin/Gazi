@@ -41,7 +41,7 @@ class Intro extends React.Component {
             industry-leading services as well as apps that have 100M+ installs.
           </div>
           <a
-            href="mailto:gazi.jarin@mail.utoronto.ca"
+            href="mailto:gazijarin@gmail.com"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>

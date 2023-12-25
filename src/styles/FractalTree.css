@@ -8,7 +8,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #fractal-tree {
-    display: none;
+  #fractal-tree .p5Canvas {
+    width: 150px !important;
+    height: 100% !important;
   }
 }

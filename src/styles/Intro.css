@@ -4,8 +4,8 @@
   align-items: center;
   text-align: center;
   margin: auto;
-max-width: 1000px;
-padding-top: 200px;
+  max-width: 1000px;
+  padding-top: 200px;
   min-height: 100vh;
 }
 
@@ -69,13 +69,10 @@ b {
 }
 
 @media only screen and (max-width: 600px) {
-  #gazi-model {
-    display: none;
-  }
-
   #intro {
     min-height: unset;
     padding-left: unset;
+    padding-top: unset;
     margin: 0;
     align-items: center;
   }
@@ -94,19 +91,15 @@ b {
   .intro-subtitle {
     margin: 0;
     font-size: 28px;
-    text-align: center;
   }
 
   .intro-desc {
     font-size: 18px;
-    text-align: center;
     max-width: unset;
     padding-bottom: 40px;
   }
 
   .intro-contact {
     font-size: 16px;
-    align-self: center;
-    margin-left: 30%;
   }
 }
