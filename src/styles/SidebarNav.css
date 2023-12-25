@@ -1,12 +1,12 @@
 .sidebar-nav {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
   position: fixed;
-  right: 0;
-  padding-right: 5%;
-  bottom: 10%;
   background-color: transparent;
+  margin: auto;
+  width: 50%;
+  justify-content: space-between;
 }
 
 .rs-sidenav-subtle {
@@ -15,8 +15,11 @@
 
 .sidebar-links {
   display: flex;
-  flex-direction: column;
-  text-align: right;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+  width: 50%;
   font-family: "NTR", sans-serif;
   letter-spacing: 0em;
   line-height: 1.6em;
@@ -26,8 +29,8 @@
 }
 
 a {
-  text-decoration: none !important;
-  color: var(--green-bright) !important;
+  text-decoration: none;
+  color: var(--green-bright);
 }
 
 a:hover {

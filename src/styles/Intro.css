@@ -1,9 +1,11 @@
 #intro {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding-left: 15%;
-  padding-top: 10%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+max-width: 1000px;
+padding-top: 200px;
   min-height: 100vh;
 }
 
@@ -33,6 +35,7 @@
   margin-top: -36px;
   font-family: "NTR", sans-serif;
   color: var(--slate);
+  text-align: center;
   font-weight: 300;
   font-size: 48px;
 }
@@ -41,8 +44,8 @@
   color: var(--slate);
   font-family: "NTR", sans-serif;
   font-size: 22px;
-  max-width: 40%;
-  text-align: justify;
+  text-align: center;
+  max-width: 600px;
   padding-bottom: 50px;
 }
 
@@ -50,6 +53,7 @@
   font-size: 22px;
   font-weight: bolder;
   font-family: "NTR", sans-serif;
+  align-self: center;
   padding: 10px 30px;
   cursor: pointer;
   border: 1px solid var(--green-bright);

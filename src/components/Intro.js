@@ -3,7 +3,6 @@ import React from "react";
 import "../styles/Intro.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
-import GaziModel from "./GaziModel";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import FadeInSection from "./FadeInSection";
 import FractalTree from "./FractalTree";
@@ -14,13 +13,13 @@ class Intro extends React.Component {
     this.state = {
       expanded: true,
       activeKey: "1",
-      visible: true
+      visible: true,
     };
     this.handleSelect = this.handleSelect.bind(this);
   }
   handleSelect(eventKey) {
     this.setState({
-      activeKey: eventKey
+      activeKey: eventKey,
     });
   }
   render() {
@@ -37,16 +36,16 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
-            I'm a software engineer and artist based in Toronto. I have great
-            interest in full-stack development, artificial intelligence,
-            human-computer interactions, and everything in between.
+            I'm a software engineer from Toronto, Canada. I'm fascinated by
+            large-scale, high-impact products and contributed to major feature launches in
+            industry-leading services as well as apps that have 100M+ installs.
           </div>
           <a
             href="mailto:gazi.jarin@mail.utoronto.ca"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
-            {"  " + "Say hi!"}
+            {" Say hi!"}
           </a>
         </FadeInSection>
       </div>

@@ -86,9 +86,8 @@ const JobList = () => {
       jobTitle: "Software Development Engineer @",
       duration: "JUL 2022 - PRESENT",
       desc: [
-        "Collaborate with experienced cross-disciplinary Amazonians to conceive, design, and bring innovative products and services to market.",
-        "Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry.",
-        "Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use."
+        "Led development of end-to-end region build automation across Route 53 (AWS's DNS web service).  This enabled the launch of customer-facing global services in new regions within a day, a significant reduction} from the previous time-frame of a month.",
+        "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers."
       ]
     },
     Wattpad: {

@@ -1,7 +1,8 @@
 #projects {
-  padding-left: 15%;
-  padding-right: 25%;
-  min-height: 60vh;
+  margin: auto;
+  padding-top: 100px;
+max-width: 1000px;
+min-height: 50vh;
 }
 
 .projects-grid {

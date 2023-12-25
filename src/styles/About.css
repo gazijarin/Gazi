@@ -1,14 +1,8 @@
-@font-face {
-  font-family: "NTR";
-  font-weight: 200;
-  font-display: fallback;
-  src: url("/fonts/NTR-Regular.ttf") format("truetype");
-}
-
 #about {
-  padding-left: 15%;
-  padding-right: 25%;
-  min-height: 60vh;
+  min-height: 50vh;
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 100px;
 }
 
 .about-description ul {

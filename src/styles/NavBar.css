@@ -1,0 +1,18 @@
+.navbar {
+    background-color: var(--navy);
+    color: var(--lightest-slate);
+    font-family: 'NTR';
+    font-weight: bold;
+  }
+
+  .navbar-light .navbar-brand  {
+    color: var(--lightest-slate) !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: var(--lightest-slate) !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--green-bright) !important;
+  }
