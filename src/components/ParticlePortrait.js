@@ -11,10 +11,11 @@ const ParticlePortrait = () => {
   useEffect(() => {
     const updateSize = () => {
       const width = window.innerWidth;
+
       if (width <= 480) {
-        setSize(280);
+        setSize(Math.min(220, width - 40));
       } else if (width <= 768) {
-        setSize(320);
+        setSize(Math.min(280, width - 60));
       } else {
         setSize(500);
       }
@@ -66,7 +67,7 @@ const ParticlePortrait = () => {
       const pixels = imageData.data;
 
       const lines = [];
-      const rowGap = size <= 320 ? 5 : 6;
+      const rowGap = size <= 280 ? 5 : 6;
 
       for (let y = 0; y < canvasHeight; y += rowGap) {
         let x = 0;
@@ -81,7 +82,7 @@ const ParticlePortrait = () => {
             const brightness = (r + g + b) / (3 * 255);
 
             const lineLength = Math.floor(
-              3 + brightness * (size <= 320 ? 10 : 15)
+              3 + brightness * (size <= 280 ? 8 : 15)
             );
 
             const scatterX = (Math.random() - 0.5) * 300;
@@ -162,7 +163,7 @@ const ParticlePortrait = () => {
         p.y += p.vy;
 
         ctx.strokeStyle = `rgba(100, 255, 218, ${p.currentAlpha})`;
-        ctx.lineWidth = size <= 320 ? 1.5 : 2;
+        ctx.lineWidth = size <= 280 ? 1.5 : 2;
         ctx.beginPath();
         ctx.moveTo(p.x, p.y);
         ctx.lineTo(p.x + p.length, p.y);

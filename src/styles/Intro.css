@@ -113,12 +113,16 @@
   #intro {
     flex-direction: column;
     justify-content: center;
-    padding: 60px 24px;
-    gap: 30px;
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding: 20px 24px;
+    gap: 20px;
   }
 
   .intro-simulation {
     display: flex;
+    flex-shrink: 0;
   }
 
   .intro-block {
@@ -140,41 +144,50 @@
   .intro-subtitle {
     text-align: center;
     font-size: 28px;
+    display: none;
   }
 
   .intro-desc {
     text-align: center;
-    font-size: 18px;
-    padding-bottom: 32px;
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 24px;
+    line-height: 1.4;
   }
 
   .intro-contact {
-    font-size: 18px;
-    padding: 10px 28px;
+    font-size: 16px;
+    padding: 10px 24px;
   }
 }
 
 /* Small mobile */
 @media only screen and (max-width: 480px) {
   #intro {
-    padding: 40px 16px;
-    gap: 24px;
+    padding: 16px;
+    gap: 16px;
   }
 
   .Typist {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .intro-title,
   .intro-name {
-    font-size: 38px;
+    font-size: 32px;
   }
 
   .intro-subtitle {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .intro-desc {
-    font-size: 16px;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .intro-contact {
+    font-size: 14px;
+    padding: 8px 20px;
   }
 }

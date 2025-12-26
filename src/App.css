@@ -98,7 +98,7 @@ a {
 @media only screen and (max-width: 600px) {
   .App {
     flex-direction: column;
-    padding: 40px 24px;
+    padding: 0px 24px;
   }
 
   #content {
