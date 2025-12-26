@@ -11,13 +11,13 @@ class Projects extends React.Component {
     super();
     this.state = {
       expanded: true,
-      activeKey: "1"
+      activeKey: "1",
     };
     this.handleSelect = this.handleSelect.bind(this);
   }
   handleSelect(eventKey) {
     this.setState({
-      activeKey: eventKey
+      activeKey: eventKey,
     });
   }
   render() {
@@ -29,17 +29,17 @@ class Projects extends React.Component {
         techStack: "C# (UNITY)",
         link: "https://github.com/slakh96/no-mans-land",
         open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+        image: "/assets/nomansland.png",
       },
-      Truth: {
-        title: "truth",
-        desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
-      },
+      // Truth: {
+      //   title: "truth",
+      //   desc:
+      //     "A three.js simulation of the planet system revolving around a monolith.",
+      //   techStack: "JAVASCRIPT (THREE.JS)",
+      //   link: "https://github.com/gazijarin/truth",
+      //   open: "https://gazijarin.github.io/Truth/",
+      //   image: "/assets/truth.png"
+      // },
       "Tall Tales": {
         title: "tall tales",
         desc:
@@ -47,7 +47,7 @@ class Projects extends React.Component {
         techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
         link: "https://github.com/gazijarin/TallTales",
         open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+        image: "/assets/talltales.png",
       },
       Portfolio: {
         title: "portfolio.js",
@@ -56,8 +56,8 @@ class Projects extends React.Component {
         techStack: "NODE.JS (EXPRESS.JS)",
         link: "https://github.com/gazijarin/Portfolio.js",
         open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
-      }
+        image: "/assets/portfolio.png",
+      },
     };
     const projects = {
       "TDSB Homework Management Interface": {
@@ -65,43 +65,43 @@ class Projects extends React.Component {
           "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
         techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
         link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+        open: "https://tdsb-app.herokuapp.com/",
       },
       "Adam A.I.": {
         desc:
           "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
         techStack: "Javascript, HTML / CSS",
         link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+        open: "https://gazijarin.github.io/AdamAI/",
       },
       "Distributed Logging and Monitoring System": {
         desc:
           "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
         techStack: "Node.js (Express.js), React.js, PostgreSQL",
         link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System",
       },
       "Odin Bot": {
         desc:
           "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
         techStack: "Javascript, Node.js, Natural NLP, Telegram API",
         link: "https://github.com/gazijarin/OdinBot",
-        open: ""
+        open: "",
       },
       "Game Centre": {
         desc:
           "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
         techStack: "Java, Android Studio",
         link: "https://github.com/gazijarin/gamecentre",
-        open: ""
+        open: "",
       },
       "Minimax Stonehenge": {
         desc:
           "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
         techStack: "Python",
         link: "https://github.com/gazijarin/stonehenge",
-        open: ""
-      }
+        open: "",
+      },
     };
 
     return (

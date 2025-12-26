@@ -49,32 +49,32 @@ function TabPanel(props) {
 TabPanel.propTypes = {
   children: PropTypes.node,
   index: PropTypes.any.isRequired,
-  value: PropTypes.any.isRequired
+  value: PropTypes.any.isRequired,
 };
 
 function a11yProps(index) {
   if (isHorizontal) {
     return {
       id: `full-width-tab-${index}`,
-      "aria-controls": `full-width-tabpanel-${index}`
+      "aria-controls": `full-width-tabpanel-${index}`,
     };
   } else {
     return {
-      id: `vertical-tab-${index}`
+      id: `vertical-tab-${index}`,
     };
   }
 }
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     backgroundColor: "theme.palette.background.paper",
     display: "flex",
-    height: 300
+    height: 300,
   },
   tabs: {
-    borderRight: `1px solid ${theme.palette.divider}`
-  }
+    borderRight: `1px solid ${theme.palette.divider}`,
+  },
 }));
 
 const JobList = () => {
@@ -82,39 +82,55 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
+    Google: {
+      jobTitle: "Software Engineer @",
+      duration: "JAN 2025 - PRESENT",
+      desc: [
+        "Built and launched large-scale machine learning-driven conversion autobidding models at Google scale, influencing bidding decisions across millions of advertisers and users",
+        "Led end-to-end model development (data, training, evaluation, and production launch) for Proxybidder ML systems, directly driving multi-million-dollar revenue impact through improved conversion efficiency",
+      ],
+    },
+    Pinterest: {
+      jobTitle: "Software Engineer II @",
+      duration: "JUL 2022 - JAN 2025",
+      desc: [
+        "Led the development of a generative AI solution using LLMs for advanced prompt engineering, improving SEO and ad relevance, and resulting in a 20% increase in click-through rates, ad revenue and business visibility",
+        "Designed and developed an intuitive user interface for a prompt management system for 500K+ users, with key focus on accessibility, real-time collaboration features, and dynamic data visualization",
+      ],
+    },
     Amazon: {
-      jobTitle: "Software Development Engineer @",
-      duration: "JUL 2022 - PRESENT",
+      jobTitle: "Software Development Engineer II @",
+      duration: "JUL 2022 - MAY 2024",
       desc: [
         "Led development of end-to-end region build automation across Route 53 (AWS's DNS web service).  This enabled the launch of customer-facing global services in new regions within a day, a significant reduction from the previous time-frame of a month.",
-        "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers."
-      ]
+        "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers.",
+      ],
     },
     Wattpad: {
-      jobTitle: "Associate Engineer @",
+      jobTitle: "Software Engineer Intern @",
       duration: "MAY 2020 - APR 2021",
       desc: [
         "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
         "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
-      ]
+        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations.",
+      ],
     },
-    "University of Toronto": {
-      jobTitle: "Research Engineer @",
-      duration: "MAY 2021 - SEPT 2021",
-      desc: [
-        "Developed and researched an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
-      ]
-    },
-    Centivizer: {
-      jobTitle: "Software Developer @",
-      duration: "SEPT 2019 - APR 2020",
-      desc: [
-        "Developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
-        "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
-      ]
-    },
+    // "University of Toronto": {
+    //   jobTitle: "Research Engineer @",
+    //   duration: "MAY 2021 - SEPT 2021",
+    //   desc: [
+    //     "Developed and researched an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
+    //     " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+    //   ]
+    // },
+    // Centivizer: {
+    //   jobTitle: "Software Developer @",
+    //   duration: "SEPT 2019 - APR 2020",
+    //   desc: [
+    //     "Developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
+    //     "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
+    //   ]
+    // },
     // TDSB: {
     //   jobTitle: "Software Engineer @",
     //   duration: "SEPT 2019 - DEC 2020",
@@ -122,15 +138,15 @@ const JobList = () => {
     //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
     //   ]
     // },
-    "Orange Gate": {
-      jobTitle: "Software Developer Intern @",
-      duration: "MAY 2019 - AUG 2019",
-      desc: [
-        "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sensors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
-        "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
-      ]
-    }
+    // "Orange Gate": {
+    //   jobTitle: "Software Developer Intern @",
+    //   duration: "MAY 2019 - AUG 2019",
+    //   desc: [
+    //     "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sensors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
+    //     "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
+    //     "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+    //   ]
+    // }
   };
 
   const handleChange = (event, newValue) => {
