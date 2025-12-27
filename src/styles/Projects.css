@@ -1,7 +1,7 @@
 #projects {
   margin: auto;
   max-width: 1000px;
-  min-height: 70vh;
+  min-height: 90vh;
 }
 
 .projects-grid {
@@ -133,7 +133,7 @@
 
 @media only screen and (max-width: 600px) {
   #projects {
-    height: unset;
+    min-height: 90vh;
     padding-left: unset;
     padding-right: unset;
   }

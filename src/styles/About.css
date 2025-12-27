@@ -1,5 +1,5 @@
 #about {
-  min-height: 70vh;
+  min-height: 90vh;
   margin: auto;
   max-width: 1000px;
 }
@@ -70,10 +70,9 @@
 
 @media only screen and (max-width: 600px) {
   #about {
-    height: unset;
+    min-height: 90vh;
     padding-left: unset;
     padding-right: unset;
-    padding-top: 30%;
   }
 
   .about-description {

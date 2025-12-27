@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+[id] {
+  scroll-margin-top: 80px;
+}
+
 .fade-in-section {
   opacity: 0;
   transform: translateY(40px);

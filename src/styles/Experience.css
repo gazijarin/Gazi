@@ -1,5 +1,5 @@
 #experience {
-  min-height: 70vh;
+  min-height: 90vh;
   margin: auto;
   max-width: 1000px;
 }
@@ -92,13 +92,10 @@ ul {
 
 @media only screen and (max-width: 600px) {
   #experience {
+    min-height: 90vh;
+    overflow-y:auto;
     padding-left: unset;
     padding-right: unset;
-  }
-
-  .jss1 {
-    height: unset !important;
-    flex-direction: column !important;
   }
 
   .makeStyles-root-1 {
