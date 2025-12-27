@@ -17,7 +17,7 @@ const ParticlePortrait = () => {
       } else if (width <= 768) {
         setSize(Math.min(280, width - 60));
       } else {
-        setSize(500);
+        setSize(400);
       }
     };
 

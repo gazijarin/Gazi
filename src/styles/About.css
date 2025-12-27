@@ -1,8 +1,7 @@
 #about {
-  min-height: 50vh;
+  min-height: 70vh;
   margin: auto;
   max-width: 1000px;
-  padding-top: 100px;
 }
 
 .about-description ul {

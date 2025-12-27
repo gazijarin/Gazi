@@ -27,7 +27,7 @@
 .Typist {
   color: var(--lightest-slate);
   text-align: left;
-  font-size: 76px;
+  font-size: 64px;
 }
 
 .Typist .Cursor--blinking {
@@ -37,14 +37,14 @@
 
 .intro-title {
   font-family: "NTR", sans-serif;
-  font-size: 86px;
+  font-size: 64px;
 }
 
 .intro-name {
   font-family: "NTR", sans-serif;
   color: var(--green-bright);
   font-weight: bold;
-  font-size: 86px;
+  font-size: 64px;
 }
 
 .intro-subtitle {
@@ -58,7 +58,7 @@
 .intro-desc {
   color: var(--slate);
   font-family: "NTR", sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   text-align: left;
   max-width: 100%;
   padding-top: 8px;
@@ -70,7 +70,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: bolder;
   font-family: "NTR", sans-serif;
   padding: 12px 32px;
