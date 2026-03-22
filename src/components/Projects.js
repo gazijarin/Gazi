@@ -22,7 +22,7 @@ class Projects extends React.Component {
     const projects = {
       "GPU-Accelerated Multilayer Turbulence Simulation": {
         desc:
-          "Simulation framework for modeling free-space optical systems using GPU parallelism, achieving 650× speedup over CPU baselines.",
+          "Simulation framework for modeling free-space optical systems using GPU parallelism, achieving 650x speedup over CPU baselines.",
         techStack: "CUDA, TensorFlow, Python",
         link: "https://github.com/Markeloen",
         open: "",
@@ -38,7 +38,7 @@ class Projects extends React.Component {
       },
       "LLM-Powered Hardware Analysis Agent": {
         desc:
-          "Agentic pipeline that reasons over hardware test reports, invokes calibration APIs, and routes anomalies — reducing manual triage time by 3×.",
+          "Agentic pipeline that reasons over hardware test reports, invokes calibration APIs, and routes anomalies - reducing manual triage time by 3x.",
         techStack: "GPT-4, Claude, RAG, Python, Azure",
         link: "https://github.com/Markeloen",
         open: "",

@@ -40,7 +40,7 @@ class Intro extends React.Component {
             <div className="intro-desc">
               I'm a machine learning engineer and software developer based in
               Ottawa, ON. I build production ML systems, GPU-accelerated
-              simulations, and LLM-powered agentic pipelines — shipped to
+              simulations, and LLM-powered agentic pipelines - shipped to
               Google, NVIDIA, Microsoft, and Oracle.
             </div>
             <a href="mailto:hamedak1999@gmail.com" className="intro-contact">

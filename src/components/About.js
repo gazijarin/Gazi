@@ -19,7 +19,7 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Senior Software Engineer — ML & Infrastructure</b>{" "}
+        I am currently a <b>Senior Software Engineer - ML & Infrastructure</b>{" "}
         at <a href="https://www.lumentum.com/">Lumentum</a>, where I build
         production ML systems and LLM-powered agentic pipelines for optical
         hardware. I hold a <b>Master’s of Science in Computer Engineering</b>{" "}
