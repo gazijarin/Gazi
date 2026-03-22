@@ -83,23 +83,23 @@ const JobList = () => {
 
   const experienceItems = {
     Lumentum: {
-      jobTitle: “Senior Software Engineer - ML & Infrastructure @”,
-      duration: “JAN 2024 - PRESENT”,
+      jobTitle: "Senior Software Engineer - ML & Infrastructure @",
+      duration: "JAN 2024 - PRESENT",
       desc: [
-        “Designed and deployed a Variational Autoencoder (VAE) in PyTorch for real-time MEMS mirror calibration with physics-informed loss functions, optimizing inference latency by 40% for on-device deployment.”,
-        “Architected an LLM-powered agentic pipeline that reasons over hardware test reports, plans multi-step analysis workflows, and invokes external tools to classify, summarize, and route anomalies - reducing manual triage time by 3x.”,
-        “Built RAG infrastructure with vector embeddings and frontier models (GPT-4, Claude) enabling context-aware reasoning over 10,000+ historical test documents.”,
-        “Led end-to-end development of manufacturing test applications in C#/.NET with Azure Functions for cloud-scale orchestration, real-time anomaly detection, and automated reporting.”,
-        “Developed a full-stack data platform (React, Node.js) to parse, visualize, and trend hardware test data, adopted by 20+ engineers for daily decision-making.”,
+        "Designed and deployed a Variational Autoencoder (VAE) in PyTorch for real-time MEMS mirror calibration with physics-informed loss functions, optimizing inference latency by 40% for on-device deployment.",
+        "Architected an LLM-powered agentic pipeline that reasons over hardware test reports, plans multi-step analysis workflows, and invokes external tools to classify, summarize, and route anomalies - reducing manual triage time by 3x.",
+        "Built RAG infrastructure with vector embeddings and frontier models (GPT-4, Claude) enabling context-aware reasoning over 10,000+ historical test documents.",
+        "Led end-to-end development of manufacturing test applications in C#/.NET with Azure Functions for cloud-scale orchestration, real-time anomaly detection, and automated reporting.",
+        "Developed a full-stack data platform (React, Node.js) to parse, visualize, and trend hardware test data, adopted by 20+ engineers for daily decision-making.",
       ],
     },
     NRC: {
-      jobTitle: “Machine Learning Researcher @”,
-      duration: “SEPT 2022 - DEC 2023”,
+      jobTitle: "Machine Learning Researcher @",
+      duration: "SEPT 2022 - DEC 2023",
       desc: [
-        “Developed Physics-informed Neural Networks to synthesize realistic atmospheric phase screens, framing wavefront generation as a neural rendering problem for adaptive optics research.”,
-        “Designed deep CNN classifiers (LeNet, ResNet) for turbulence pattern recognition achieving 92% accuracy, paired with GAN-based generative synthesis to produce diverse, physically plausible training data.”,
-        “Built a GPU-accelerated simulation architecture using CUDA and TensorFlow, achieving a 650x speedup and enabling real-time data processing at scale.”,
+        "Developed Physics-informed Neural Networks to synthesize realistic atmospheric phase screens, framing wavefront generation as a neural rendering problem for adaptive optics research.",
+        "Designed deep CNN classifiers (LeNet, ResNet) for turbulence pattern recognition achieving 92% accuracy, paired with GAN-based generative synthesis to produce diverse, physically plausible training data.",
+        "Built a GPU-accelerated simulation architecture using CUDA and TensorFlow, achieving a 650x speedup and enabling real-time data processing at scale.",
       ],
     },
   };

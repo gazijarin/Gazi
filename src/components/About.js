@@ -22,7 +22,7 @@ class About extends React.Component {
         I am currently a <b>Senior Software Engineer - ML & Infrastructure</b>{" "}
         at <a href="https://www.lumentum.com/">Lumentum</a>, where I build
         production ML systems and LLM-powered agentic pipelines for optical
-        hardware. I hold a <b>Master’s of Science in Computer Engineering</b>{" "}
+        hardware. I hold a <b>Master's of Science in Computer Engineering</b>{" "}
         from{" "}
         <a href="https://www.mcmaster.ca/">McMaster University</a> (GPA: 4.0),
         and have published at OFC 2025 and ICSOS 2025.
