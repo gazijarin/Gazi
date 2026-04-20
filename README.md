@@ -1,7 +1,6 @@
-Look at https://github.com/gazijarin/Gazi-V2 for the newest release.
 
 <p align="center">
-  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
+  Look at https://github.com/gazijarin/Gazi-V2 for the newest release.
 </p>
 <h1 align="center">
   gazijarin.com - v1
